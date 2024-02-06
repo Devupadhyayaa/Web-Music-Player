@@ -492,3 +492,59 @@ nav{
     height: 20px;
     background-color: #1a1a1a;
 }
+@media only screen and (max-width:1600px){
+
+    .right{
+        position: absolute;
+        left: -100%;
+        transition: all 0.3s;
+    }
+    .left{
+        width: 100vw;
+        overflow-x: hidden
+    };
+    .left nav{
+        width: 91vw;
+        padding: 10px 10px;
+        height: 85px;
+    }
+    .nav1{
+        display: none;
+    }
+    .nav2{
+        display: none;
+    }
+    .recent{
+        grid-template-columns: 1fr 1fr;
+    }
+    .jump-box{
+        grid-template-columns: 1fr 1fr;
+    }
+    .cards2{
+        width: auto ;
+    }
+    .recent-box{
+        font-size: 13px;
+    }
+    .recent .recent-box .playbtn2{
+        height: 32px;
+        width: 32px;
+    }
+    .music-bar{
+        height: 80px;
+        justify-content: center;
+        align-items: center;
+    }
+    .playbuttons button{
+        width: 43px;
+        height: 43px;
+        background-color: #000000;
+        border: none;
+        cursor: pointer;
+    }
+    .contents span{
+        font-size: 16px;
+        font-weight: normal;
+        text-align: center;
+    }
+}
