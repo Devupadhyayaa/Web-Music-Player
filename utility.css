@@ -1,0 +1,21 @@
+
+.bg-black{
+    background-color: black;
+}
+.bg-grey{
+    background-color: #121212;
+    border-radius: 12px;
+}
+.inline-block{
+    display: inline-block;
+    width: 100%;
+}
+.p1{
+    padding: 20px 16px;
+}
+.filter{
+    filter: invert(100%);
+}
+#round-icon{
+    border-radius: 60px;
+}
