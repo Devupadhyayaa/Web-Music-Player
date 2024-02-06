@@ -527,8 +527,13 @@ nav{
         font-size: 13px;
     }
     .recent .recent-box .playbtn2{
+        opacity: 0;
         height: 32px;
         width: 32px;
+    }
+    .cards2 .play-btn3{
+        top:110px;
+        left: 108px;
     }
     .music-bar{
         height: 80px;
@@ -547,4 +552,5 @@ nav{
         font-weight: normal;
         text-align: center;
     }
+
 }
