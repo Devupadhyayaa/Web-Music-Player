@@ -531,6 +531,7 @@ nav{
         transition: all 0.2s ease-in-out;
     }
     .left{
+        margin-top: 40px;
         left: 0;
         width: 100vw;
         overflow-x: hidden;
@@ -539,7 +540,7 @@ nav{
     .left nav{
         width: 91vw;
         padding: 10px 10px;
-        height: 180px;
+        height: 85px;
     }
     .nav1{
         display: none;
