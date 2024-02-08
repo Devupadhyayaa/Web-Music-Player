@@ -510,8 +510,8 @@ nav{
     width: 34px;
     height: 34px;
     position: absolute;
-    left: 23px;
-    top: 54px;
+    left: 20px;
+    top: 7px;
     background-color: #053656;
     border: none;
     background: transparent;
@@ -531,7 +531,6 @@ nav{
         transition: all 0.2s ease-in-out;
     }
     .left{
-        margin-top: 40px;
         left: 0;
         width: 100vw;
         overflow-x: hidden;
