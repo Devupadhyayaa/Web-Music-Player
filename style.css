@@ -495,12 +495,13 @@ nav{
 .home ul :nth-child(2){
     display: flex;
 }
-.ham-burger{
+.home ul .ham-burger{
     width: 34px;
     height: 34px;
     background:transparent;
     border: none;
     cursor: pointer;
+    display: none;
 }
 .home ul li .ham-burger img{
     width: 100%;
@@ -606,6 +607,12 @@ nav{
     }
     .library-3 .cards .play-btn{
         display: none;
+    }
+    .home ul .ham-burger{
+        display: block;
+    }
+    .hamburger{
+        display: block;
     }
 
 }
