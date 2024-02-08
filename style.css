@@ -517,6 +517,7 @@ nav{
     border: none;
     background: transparent;
     cursor: pointer;
+    display:none;
 }
 .hamburger img{
     width: 100%;
