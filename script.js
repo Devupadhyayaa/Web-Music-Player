@@ -83,3 +83,17 @@ function playpause(){
         currentsong.pause();
     }
 }
+
+const hamburger=document.querySelector('.hamburger');
+const right = document.querySelector('.right');
+const lft = document.querySelector('.left');
+hamburger.addEventListener('click',()=>{
+    lft.classList.add('hide');
+    right.classList.add('show');
+    
+});
+const hamb=document.querySelector('.ham-burger');
+hamb.addEventListener('click',()=>{
+    right.classList.remove('show');
+    lft.classList.remove('hide');
+})
