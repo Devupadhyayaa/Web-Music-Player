@@ -598,13 +598,13 @@ nav{
         width: 0;
     }
     .library{
-        height: 68vh;
+        height: 68svh;
     }
     .library-3{
-        height: 57vh;
+        height: 57svh;
     }
     .library-3 .cards{
-        height: 18vh;
+        height: 18svh;
     }
     .library-3 .cards .play-btn{
         display: none;
